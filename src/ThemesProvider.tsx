@@ -2,7 +2,7 @@ import * as React from "react";
 import addons from "@storybook/addons";
 import { branch, compose, lifecycle, renderNothing, withState } from "recompose";
 import { List } from "immutable";
-import { ThemeProvider } from "emotion-theming";
+import { ThemeProvider } from "@emotion/react";
 
 import { Theme } from "./types/Theme";
 
